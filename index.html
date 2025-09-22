@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bobbie Goodies para Colorir - Pacote Exclusivo</title>
+    <meta name="description" content="Pacote exclusivo de ilustrações fofas dos Bobbie Goodies para imprimir e colorir. Entre na tendência viral do TikTok!">
+    <meta name="keywords" content="bobbie goodies, colorir, ilustrações, tiktok, kawaii, fofo, imprimir">
+    
+    <!-- Google Fonts - Inter para tipografia moderna -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <!-- Badge de edição limitada -->
+            <div class="edition-badge">
+                <i class="fas fa-sparkles"></i>
+                <span class="badge-text">Edição Limitada</span>
+                <span class="badge-count">• 200 cópias restantes</span>
+                <i class="fas fa-gift"></i>
+            </div>
+
+            <div class="hero-grid">
+                <!-- Coluna esquerda - Conteúdo -->
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Pacote Exclusivo de Bobbie Goods para Colorir 🎨✨
+                    </h1>
+                    
+                    <p class="hero-subtitle">
+                        <span class="highlight-text">50 ilustrações fofinhas</span>, prontas para imprimir e pintar — 
+                        <span class="highlight-pink">relaxe, crie</span> e 
+                        <span class="highlight-purple">compartilhe</span> sua versão no TikTok.
+                    </p>
+
+                    <!-- Benefícios principais -->
+                    <div class="benefits-box">
+                        <div class="benefit-item">
+                            <div class="benefit-icon green">✓</div>
+                            <span>50 desenhos em alta resolução</span>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon blue">✓</div>
+                            <span>PDF pronto para imprimir (A4, 300 DPI)</span>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon purple">✓</div>
+                            <span>Uso pessoal + guia de impressão</span>
+                        </div>
+                    </div>
+
+                    <!-- CTA Principal -->
+                    <button class="cta-primary" onclick="handleCTAClick()">
+                        <i class="fas fa-download"></i>
+                        Quero meus Goodies!
+                    </button>
+                    
+                    <!-- Preço e garantia -->
+                    <div class="price-section">
+                        <div class="price-display">
+                            <span class="old-price">R$ 29,90</span>
+                            <span class="new-price">R$ 12,90</span>
+                        </div>
+                        <p class="guarantee-text">
+                            Satisfação garantida — reembolso em 7 dias se não curtir.
+                        </p>
+                    </div>
+
+
+
+                    <!-- Prova social -->
+                    <div class="social-proof">
+                        <div class="proof-item">
+                            <i class="fas fa-star"></i>
+                            <span>4.9/5 estrelas</span>
+                        </div>
+                        <div class="proof-separator"></div>
+                        <span>Mais de 2.300 downloads em 7 dias</span>
+                    </div>
+                </div>
+
+                <!-- Coluna direita - Imagem hero -->
+                <div class="hero-image-section">
+                    <div class="hero-image-container">
+                        <img src="hero_preview.png" alt="Preview do Pacote de Colorir Bobbie Goodies" class="hero-image">
+                        
+                        <!-- Elementos decorativos -->
+                        <div class="decoration decoration-1"></div>
+                        <div class="decoration decoration-2"></div>
+                    </div>
+
+                    <!-- Contador de urgência -->
+                    <div class="urgency-counter">
+                        ⏰ Lançamento: 48h com desconto
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Elementos decorativos de fundo -->
+        <div class="bg-decorations">
+            <div class="bg-circle bg-circle-1"></div>
+            <div class="bg-circle bg-circle-2"></div>
+            <div class="bg-circle bg-circle-3"></div>
+            <div class="bg-circle bg-circle-4"></div>
+            <div class="bg-circle bg-circle-5"></div>
+            <div class="bg-circle bg-circle-6"></div>
+        </div>
+    </section>
+
+    <!-- Seção de Galeria/Preview -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Preview do Pacote Exclusivo</h2>
+                <p class="section-subtitle">
+                    Veja algumas das 50 ilustrações fofas que você vai receber
+                </p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="thumbnail_1.png" alt="Urso feliz com flores" class="gallery-image">
+                </div>
+                <div class="gallery-item">
+                    <img src="thumbnail_2.png" alt="Nuvem sorridente com arco-íris" class="gallery-image">
+                </div>
+                <div class="gallery-item">
+                    <img src="thumbnail_3.png" alt="Gato brincando com novelo de lã" class="gallery-image">
+                </div>
+                <div class="gallery-item">
+                    <img src="thumbnail_4.png" alt="Sol feliz com óculos de sol" class="gallery-image">
+                </div>
+            </div>
+            
+            <div class="gallery-highlight">
+                Mais de 46 ilustrações fofas esperando por você!
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Preços -->
+    <section class="pricing-section">
+        <div class="container">
+            <!-- Cabeçalho -->
+            <div class="pricing-header">
+                <div class="offer-badge">
+                    <i class="fas fa-bolt"></i>
+                    <span>Oferta Limitada</span>
+                    <i class="fas fa-gift"></i>
+                </div>
+                
+                <h2 class="pricing-title">
+                    Oferta Especial de Lançamento! 🔥
+                </h2>
+                
+                <p class="pricing-subtitle">
+                    Por <span class="highlight-red">tempo limitado</span>, você leva o pacote completo com 
+                    <span class="highlight-orange">desconto exclusivo</span> + bônus que valem mais que o 
+                    <span class="highlight-yellow">preço do produto</span>!
+                </p>
+            </div>
+
+            <!-- Card de preço principal -->
+            <div class="pricing-card">
+                <div class="discount-badge">
+                    -57% OFF
+                </div>
+
+                <div class="pricing-content">
+                    <div class="package-info">
+                        <h3 class="package-title">Pacote Exclusivo Bobbie Goods</h3>
+                        <p class="package-description">50 ilustrações fofas + bônus de lançamento</p>
+                    </div>
+
+                    <div class="price-display-main">
+                        <span class="old-price-main">R$ 29,90</span>
+                        <span class="new-price-main">R$ 12,90</span>
+                    </div>
+                    <p class="payment-info">Pagamento único • Acesso vitalício</p>
+
+                    <button class="cta-purchase" onclick="handleCTAClick()">
+                        <i class="fas fa-download"></i>
+                        <span>Quero meus Goodies!</span>
+                    </button>
+
+                    <div class="security-info">
+                        <div class="security-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Compra Segura</span>
+                        </div>
+                        <div class="security-item">
+                            <i class="fas fa-download"></i>
+                            <span>Download Imediato</span>
+                        </div>
+                        <div class="security-item">
+                            <i class="fas fa-heart"></i>
+                            <span>Garantia 7 dias</span>
+                        </div>
+                    </div>
+
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>50 ilustrações em alta resolução (300 DPI)</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>PDF otimizado para impressão A4</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Guia completo de impressão e técnicas</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Paleta de cores digital (bônus)</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Acesso vitalício e downloads ilimitados</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Suporte via WhatsApp</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Garantia de 7 dias ou seu dinheiro de volta</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Seção de urgência -->
+            <div class="urgency-section">
+                <div class="urgency-content">
+                    <div class="urgency-header">
+                        <i class="fas fa-clock"></i>
+                        <h3>Oferta por Tempo Limitado!</h3>
+                    </div>
+                    
+                    <p class="urgency-text">
+                        Esta é uma oferta especial de lançamento. O preço normal será R$ 29,90 em breve!
+                    </p>
+
+                    <!-- Contador regressivo -->
+                    <div class="countdown-grid">
+                        <div class="countdown-item">
+                            <div class="countdown-number" id="countdownDays">01</div>
+                            <div class="countdown-label">Dias</div>
+                        </div>
+                        <div class="countdown-item">
+                            <div class="countdown-number" id="countdownHours">15</div>
+                            <div class="countdown-label">Horas</div>
+                        </div>
+                        <div class="countdown-item">
+                            <div class="countdown-number" id="countdownMinutes">32</div>
+                            <div class="countdown-label">Min</div>
+                        </div>
+                        <div class="countdown-item">
+                            <div class="countdown-number" id="countdownSeconds">45</div>
+                            <div class="countdown-label">Seg</div>
+                        </div>
+                    </div>
+
+                    <button class="cta-urgency" onclick="handleCTAClick()">
+                        <i class="fas fa-bolt"></i>
+                        Garantir Meu Desconto Agora!
+                    </button>
+                    
+                    <p class="stock-info">
+                        Apenas <strong>47 pacotes restantes</strong> com este preço especial
+                    </p>
+                </div>
+            </div>
+
+            <!-- Seção de bônus -->
+            <div class="bonus-section">
+                <div class="bonus-header">
+                    <h3 class="bonus-title">Bônus Exclusivos de Lançamento 🎁</h3>
+                    <p class="bonus-subtitle">
+                        Quem comprar hoje ganha estes bônus que valem <span class="bonus-value">R$ 19,90</span> totalmente GRÁTIS!
+                    </p>
+                </div>
+
+                <div class="bonus-grid">
+                    <div class="bonus-item">
+                        <div class="bonus-icon purple-pink">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="bonus-item-title">Paleta de Cores Digital</h4>
+                        <p class="bonus-item-description">
+                            Sugestões de cores para cada desenho, perfeita para iniciantes e quem busca inspiração.
+                        </p>
+                        <div class="bonus-item-value">Valor: R$ 9,90</div>
+                    </div>
+
+                    <div class="bonus-item">
+                        <div class="bonus-icon blue-green">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4 class="bonus-item-title">Guia de Técnicas Avançadas</h4>
+                        <p class="bonus-item-description">
+                            Dicas profissionais de colorir, materiais recomendados e técnicas para resultados incríveis.
+                        </p>
+                        <div class="bonus-item-value">Valor: R$ 10,00</div>
+                    </div>
+                </div>
+
+                <div class="bonus-total">
+                    <p class="bonus-total-text">
+                        Total dos bônus: <span class="bonus-total-old">R$ 19,90</span>
+                    </p>
+                    <p class="bonus-total-new">
+                        Seu preço hoje: <span class="bonus-free">GRÁTIS!</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Depoimentos -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">O que estão dizendo sobre os Bobbie Goodies?</h2>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Eu e minha filha passamos a tarde toda pintando juntas! 🐻💖"</p>
+                    <p class="testimonial-author">- Mãe Feliz</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Finalmente encontrei algo divertido e relaxante para depois do trabalho."</p>
+                    <p class="testimonial-author">- Profissional Estressado</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Perfeito para criar conteúdo no TikTok! Já viralizei com meu primeiro desenho pintado."</p>
+                    <p class="testimonial-author">- Criador de Conteúdo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção FAQ -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Perguntas Frequentes</h2>
+            </div>
+            
+            <div class="faq-items">
+                <div class="faq-item">
+                    <h3 class="faq-question">O que recebo ao comprar?</h3>
+                    <p class="faq-answer">Um arquivo PDF com capa e mais de 50 ilustrações exclusivas, prontas para imprimir e colorir, além dos bônus digitais.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Posso imprimir em casa?</h3>
+                    <p class="faq-answer">Sim, você pode imprimir em qualquer impressora, quantas vezes quiser! O PDF está otimizado para impressão A4 em alta resolução.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">É só para crianças?</h3>
+                    <p class="faq-answer">Não! O pacote Bobbie Goodies é para todas as idades. Crianças, adolescentes e adultos podem relaxar e se divertir colorindo.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Como recebo o produto após a compra?</h3>
+                    <p class="faq-answer">Imediatamente após a confirmação do pagamento, você receberá um e-mail com o link para download do pacote completo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
